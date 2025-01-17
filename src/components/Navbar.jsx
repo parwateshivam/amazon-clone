@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
 <>
 {/* main div (Navbar)-1 */}
-<div className='text-white flex justify-between items-center w-full bg-[#0F1111] h-16'>
+<div className='text-red-500 flex justify-between items-center w-full bg-[#0F1111] h-16'>
 
       {/* left div before search bar */}
 
