@@ -1,13 +1,18 @@
-import React from 'react'
-import Hero from '../images/hero_section.jpg'
+import React from 'react';
+import Hero from '../images/hero_section.jpg';
+import CardSelection from './CardSelection';
 const HeroSection = () => {
-      return (
-            <>
-                  <div className='w-full'>
-                        <img src={Hero} alt="" />
-                  </div>
-            </>
-      )
-}
+    return (
+        <>
+            {/* Hero Section with Background Image */}
+            <div className="relative w-full h-[500px] bg-cover bg-center" style={{ backgroundImage: `url(${Hero})` }}>
+                {/* Center CardSelection */}
+                <div className="absolute mt-80">
+                    <CardSelection />
+                </div>
+            </div>
+        </>
+    );
+};
 
-export default HeroSection
+export default HeroSection;

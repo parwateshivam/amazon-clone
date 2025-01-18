@@ -6,7 +6,8 @@ import { faEarthAmerica } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
       return (
-            <>
+            
+            <div className='w-full mt-[750px]'>
                   <div className='flex justify-center items-center w-full h-12 bg-[#37475a] text-white cursor-pointer hover:bg-gray-600'>
                         Back to top
                   </div>
@@ -81,9 +82,7 @@ const Footer = () => {
                         </ul>
                         <p className='text-xs'>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
                   </div>
-
-
-            </>
+            </div>
       )
 }
 
