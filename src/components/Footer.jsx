@@ -7,7 +7,7 @@ import { faEarthAmerica } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
       return (
             
-            <div className='w-full mt-[750px]'>
+            <div className='w-full  mt-[1400px] sm:mt-[950px] md:mt-[650px] h-min'>
                   <div className='flex justify-center items-center w-full h-12 bg-[#37475a] text-white cursor-pointer hover:bg-gray-600'>
                         Back to top
                   </div>
@@ -89,19 +89,3 @@ const Footer = () => {
 export default Footer
 
 
-                  {/* <div className='w-full bg-[#222f3d] flex text-white justify-evenly items-center border-t'>
-                        <div>
-                              <img className='size-24' src={Logo} />
-                        </div>
-                        <div className='flex items-center gap-3'>
-                              <div className='flex space-x-3 items-center border px-5 py-3 mb-12'>
-                                    <FontAwesomeIcon icon={faEarthAmerica} />
-                                    <p>English</p>
-                              </div>
-                              <div className='flex space-x-3 border px-5 py-3 mb-12'>
-                                    <img className='w-5 h-4 mt-1' src={Ind} alt="" />
-                                    <p>India</p>
-                              </div>
-                        </div>
-                  </div>
-                  */}

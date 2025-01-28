@@ -5,10 +5,10 @@ const HeroSection = () => {
     return (
         <>
             {/* Hero Section with Background Image */}
-            <div className="relative w-full h-[500px] bg-cover bg-center" style={{ backgroundImage: `url(${Hero})` }}>
+            <div className="w-full h-[500px] bg-cover bg-center" style={{ backgroundImage: `url(${Hero})` }}>
                 {/* Center CardSelection */}
                 <div className="absolute mt-80">
-                    <CardSelection />
+                    <CardSelection  />
                 </div>
             </div>
         </>

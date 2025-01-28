@@ -49,7 +49,7 @@ const products = [
             id: 8,
             title: "Starting ₹349 | Bestselling headphones",
             imageUrl: "https://images-eu.ssl-images-amazon.com/images/G/31/img24hp/headphones/DEC_audio/PC_CC_379x304_llll._SY304_CB552721245_.jpg",
-            link: "#",
+            link: "",
       },
 
 
@@ -57,17 +57,22 @@ const products = [
 
 const CardSelection = () => {
       return (
-            <div className="p-6 bg-gray-100 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-6 p-6">
                   {products.map((product) => (
                         <ProductCard
-                              key={product.id}
-                              title={product.title}
-                              imageUrl={product.imageUrl}
-                              link={product.link}
-                        />
+                        key={product.id}
+                        title={product.title}
+                        imageUrl={product.imageUrl}
+                        link={product.link}
+                  />
                   ))}
             </div>
       );
 };
 
 export default CardSelection;
+
+
+
+
+

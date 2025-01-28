@@ -1,16 +1,18 @@
 import React from "react";
-
 const ProductCard = ({ title, imageUrl, link }) => {
   return (
     <div className="max-w-[280px] bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-      
+
       <div className="p-4">
-      <h2 className="text-lg font-semibold text-gray-800 mb-2">{title}</h2>
-      <img
-        src={imageUrl}
-        alt={title}
-        className="w-full h-[300px] object-cover rounded-lg py-4"
-      />
+
+        <h2 className="text-lg font-semibold text-gray-800 mb-2">{title}</h2>
+
+        <img
+          src={imageUrl}
+          alt={title}
+          className="w-full object-cover rounded-lg py-4"
+        />
+
         <a
           href={link}
           target="_blank"
@@ -19,7 +21,9 @@ const ProductCard = ({ title, imageUrl, link }) => {
         >
           View Product
         </a>
+
       </div>
+
     </div>
   );
 };
